@@ -25,7 +25,7 @@ cd Selenium-project
 # Prepare the List of Items:
 Create a file named items_to_search.txt in the project directory.
 Add one item per line to search on eBay.
-# Example:
+Example:
 laptop
 smartphone
 headphones
@@ -38,12 +38,13 @@ password.send_keys("your-ebay-password")  # Replace with your eBay password
 Run the script from your terminal:
 python merged.py
 
-# The script will:
+The script will:
 Open eBay in Chrome.
 Log in with your credentials.
 Search for each item listed in items_to_search.txt.
 Add the first search result to the cart.
 Log out after completing the searches.
+
 # Notes
 Ensure you have Google Chrome installed, as the script uses Chrome WebDriver.
 
