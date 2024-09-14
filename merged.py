@@ -38,7 +38,7 @@ def run_ebay_login_and_search_test(items_to_search):
         print("Clicked Sign in button")
 
         email = driver.find_element(By.ID, "userid")
-        email.send_keys("chidhanandrchidhu@gmail.com")  # Replace with your eBay email
+        email.send_keys("abc@gmail.com")  # Replace with your eBay email
         time.sleep(10)
         print("Entered email")
 
@@ -48,7 +48,7 @@ def run_ebay_login_and_search_test(items_to_search):
         print("Clicked Continue button")
 
         password = driver.find_element(By.ID, "pass")
-        password.send_keys("Chidha@111")  # Replace with your eBay password
+        password.send_keys("xyz")  # Replace with your eBay password
         time.sleep(10)
         print("Entered password")
 
